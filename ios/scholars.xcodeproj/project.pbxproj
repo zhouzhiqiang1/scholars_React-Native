@@ -242,7 +242,7 @@
 		00E356F21AD99517003FC87E /* scholarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scholarsTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* scholars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scholars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* scholars_RN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scholars_RN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = scholars/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = scholars/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -475,7 +475,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* scholars.app */,
+				13B07F961A680F5B00A75B9A /* scholars_RN.app */,
 				00E356EE1AD99517003FC87E /* scholarsTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* scholars-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* scholars-tvOSTests.xctest */,
@@ -519,7 +519,7 @@
 			);
 			name = scholars;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* scholars.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* scholars_RN.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* scholars-tvOS */ = {
@@ -1005,7 +1005,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = scholars;
+				PRODUCT_NAME = scholars_RN;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1022,7 +1022,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = scholars;
+				PRODUCT_NAME = scholars_RN;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
